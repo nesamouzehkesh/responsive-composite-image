@@ -1,4 +1,14 @@
-CompositeImage example:
+### CompositeImage component:
+
+This is the main component which accepts 4 props; The `image` prop is provided to it from the state of the app supplied by a mock API. It has the assets provoided for the project. The other 3 props are: 
+
+* width
+* margin
+* opacity 
+
+which provide some flexibility to developers to adjust these attributes as they please. 
+
+#### Simple CompositeImage example:
 
 ```js
 const image = {
@@ -12,7 +22,8 @@ const image = {
 ```
 
 
-CompositeImage example:
+#### CompositeImage example with margin:
+For example if you like to put several `CompositeImage` components together you can set some margin between them by setting the `margin` prop as shown below: 
 
 ```js
 const images = [{
@@ -43,8 +54,8 @@ const images = [{
 images.map(image => <CompositeImage image={image} margin="5px" />)
 ```
 
-
-CompositeImage example with opacity:
+#### CompositeImage example with margin & opacity:
+This is another use case of `CompositeImage` component with both `margin` and `opacity`set to desired values:
 
 ```js
 const image = {

@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test CompositeImage component renders CompositeImage component normally and check with snapshot 1`] = `
+<div
+  className="sc-ifAKCX hmxgco"
+  width={Object {}}
+>
+  <img
+    className="sc-bdVaJa ehJlOl"
+    src="./media/tile.jpg"
+  />
+  <div
+    className="sc-bwzfXH iuahvm"
+    opacity="0.7"
+  >
+    <img
+      className="sc-bxivhb drEZdn"
+      src="./media/logo.png"
+      title="Home and Away"
+    />
+    <span
+      className="sc-htpNat bsLmhA"
+    >
+      Home and Away
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Test CompositeImage component renders CompositeImage component normally with margin and check with snapshot 1`] = `
+<div
+  className="sc-ifAKCX hFXXjr"
+  width={Object {}}
+>
+  <img
+    className="sc-bdVaJa ehJlOl"
+    src="./media/tile.jpg"
+  />
+  <div
+    className="sc-bwzfXH iuahvm"
+    opacity="0.7"
+  >
+    <img
+      className="sc-bxivhb drEZdn"
+      src="./media/logo.png"
+      title="Home and Away"
+    />
+    <span
+      className="sc-htpNat bsLmhA"
+    >
+      Home and Away
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Test CompositeImage component renders CompositeImage component normally with opacity and check with snapshot 1`] = `
+<div
+  className="sc-ifAKCX hmxgco"
+  width={Object {}}
+>
+  <img
+    className="sc-bdVaJa ehJlOl"
+    src="./media/tile.jpg"
+  />
+  <div
+    className="sc-bwzfXH dpcdFg"
+    opacity="1"
+  >
+    <img
+      className="sc-bxivhb drEZdn"
+      src="./media/logo.png"
+      title="Home and Away"
+    />
+    <span
+      className="sc-htpNat bsLmhA"
+    >
+      Home and Away
+    </span>
+  </div>
+</div>
+`;

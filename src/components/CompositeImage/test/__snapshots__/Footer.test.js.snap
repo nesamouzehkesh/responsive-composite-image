@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test CompositeImage Footer component renders Footer component normally and check with snapshot 1`] = `
+<div
+  className="sc-bdVaJa dfYFhE"
+  opacity={undefined}
+>
+  <img
+    className="sc-htpNat dVWorX"
+    src="test.png"
+    title="Footer title"
+  />
+  <span
+    className="sc-bwzfXH grwsXg"
+  >
+    Footer title
+  </span>
+</div>
+`;
+
+exports[`Test CompositeImage Footer component renders Footer component normally with opacity and check with snapshot 1`] = `
+<div
+  className="sc-bdVaJa hmsgUZ"
+  opacity="0.6"
+>
+  <img
+    className="sc-htpNat dVWorX"
+    src="test.png"
+    title="Footer title"
+  />
+  <span
+    className="sc-bwzfXH grwsXg"
+  >
+    Footer title
+  </span>
+</div>
+`;

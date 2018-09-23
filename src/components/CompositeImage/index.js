@@ -20,7 +20,7 @@ const StyledCompositeImage = styled.div`
   /* Desktops */
   @media only screen and (min-width: 1281px) {
     width: ${props => props.width.large || '315px'};
-  }  
+  }
 `;
 
 function CompositeImage({image, width, margin, opacity}) {
