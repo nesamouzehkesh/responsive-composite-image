@@ -1,16 +1,27 @@
 import React, {Component} from 'react';
+import {getMedia} from './api';
+import styled from 'styled-components';
 import CompositeImage from './components/CompositeImage';
 
-class App extends Component {
-  render () {
-    const image = {
-      src: './media/tile.jpg',
-      logo: './media/logo.png',
-      title: 'Home and Away',
-      production: '7 Network',
-    };
+const StyledApp = styled.div``;
 
-    return <CompositeImage image={image} />;
+class App extends Component {
+  state = {
+    image: {},
+  };
+
+  componentDidMount () {
+    getMedia ().then (image => {
+      this.setState (() => ({image}));
+    });
+  }
+
+  render () {
+    return (
+      <StyledApp>
+        <CompositeImage image={this.state.image} />
+      </StyledApp>
+    );
   }
 }
 
