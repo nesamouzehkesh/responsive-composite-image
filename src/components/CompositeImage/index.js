@@ -1,12 +1,12 @@
 import React from 'react';
-import ImageBody from './ImageBody';
-import ImageFooter from './ImageFooter';
+import Body from './Body';
+import Footer from './Footer';
 
 function CompositeImage({image}) {
   return (
     <div>
-      <ImageBody src={image.src} />
-      <ImageFooter title={image.title} logo={image.logo} />
+      <Body src={image.src} />
+      <Footer title={image.title} logo={image.logo} />
     </div>
   );
 }

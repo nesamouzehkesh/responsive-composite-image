@@ -1,10 +1,10 @@
 import React from 'react';
 
-function ImageBody({src}) {
+function Body({src}) {
   return (
     <div>
       <img src={src} />
     </div>
   );
 }
-export default ImageBody;
+export default Body;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-function ImageFooter({logo, title}) {
+function Footer({logo, title}) {
   return (
     <div>
       <img src={logo} title={title} />
@@ -8,4 +8,4 @@ function ImageFooter({logo, title}) {
     </div>
   );
 }
-export default ImageFooter;
+export default Footer;
