@@ -13,7 +13,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "doc:start": "npx styleguidist server",
     "build": "react-scripts build",
+    "doc:build": "npx styleguidist build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
