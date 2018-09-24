@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Test CompositeImage Body component renders Body component normally and check with snapshot 1`] = `
+exports[`Test CompositeImage Body component renders Body component normally and checks against snapshot 1`] = `
 <img
   className="sc-bdVaJa ehJlOl"
   src="test.png"

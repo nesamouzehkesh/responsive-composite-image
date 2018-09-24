@@ -13,13 +13,13 @@ const StyledFooter = styled.div`
 `;
 
 const StyledTitle = styled.span`
-  font-size: 20px;
+  font-size: 18px;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
   color: #fff;
   /* Tablets, Ipads (portrait) */
   @media (min-width: 768px) and (max-width: 1024px) {
-    font-size: 22px;
+    font-size: 16px;
   }
   /* Laptops, Desktops */
   @media all and (min-width: 1025px) and (max-width: 1280px) {
@@ -33,18 +33,14 @@ const StyledTitle = styled.span`
 
 const StyledLogo = styled.img`
   margin: 10px;
-  width: 40px;
-  /* Tablets, Ipads (portrait) */
-  @media (min-width: 768px) and (max-width: 1024px) {
-    width: 58px;
-  }
+  width: 8%;
   /* Laptops, Desktops */
   @media all and (min-width: 1025px) and (max-width: 1280px) {
-    width: 40px;
+    width: 9%;
   }
   /* Desktops */
   @media only screen and (min-width: 1281px) {
-    width: 40px;
+    width: 10%;
   }  
 `;
 

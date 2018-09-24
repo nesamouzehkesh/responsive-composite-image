@@ -9,6 +9,8 @@ const StyledCompositeImage = styled.div`
   position:relative;
   display: inline-block;
   margin: ${props => props.margin};
+
+  
   /* Tablets, Ipads (portrait) */
   @media (min-width: 768px) and (max-width: 1024px) {
     width: ${props => props.width.medium || '450px'};

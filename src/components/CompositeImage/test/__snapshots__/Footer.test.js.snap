@@ -6,12 +6,12 @@ exports[`Test CompositeImage Footer component renders Footer component normally 
   opacity={undefined}
 >
   <img
-    className="sc-htpNat dVWorX"
+    className="sc-htpNat kbjeOc"
     src="test.png"
     title="Footer title"
   />
   <span
-    className="sc-bwzfXH grwsXg"
+    className="sc-bwzfXH cyQaiT"
   >
     Footer title
   </span>
@@ -24,12 +24,12 @@ exports[`Test CompositeImage Footer component renders Footer component normally 
   opacity="0.6"
 >
   <img
-    className="sc-htpNat dVWorX"
+    className="sc-htpNat kbjeOc"
     src="test.png"
     title="Footer title"
   />
   <span
-    className="sc-bwzfXH grwsXg"
+    className="sc-bwzfXH cyQaiT"
   >
     Footer title
   </span>
