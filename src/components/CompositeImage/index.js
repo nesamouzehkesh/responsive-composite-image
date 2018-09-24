@@ -10,7 +10,6 @@ const StyledCompositeImage = styled.div`
   display: inline-block;
   margin: ${props => props.margin};
 
-  
   /* Tablets, Ipads (portrait) */
   @media (min-width: 768px) and (max-width: 1024px) {
     width: ${props => props.width.medium || '450px'};
@@ -33,6 +32,22 @@ function CompositeImage({image, width, margin, opacity}) {
     </StyledCompositeImage>
   );
 }
+
+CompositeImage.propTypes = {
+  image: PropTypes.shape ({
+    src: PropTypes.string.isRequired,
+    logo: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    production: PropTypes.string,
+  }),
+  width: PropTypes.shape ({
+    small: PropTypes.string,
+    medium: PropTypes.string,
+    large: PropTypes.string,
+  }),
+  margin: PropTypes.string,
+  opacity: PropTypes.string,
+};
 
 CompositeImage.defaultProps = {
   width: {},

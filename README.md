@@ -56,6 +56,12 @@ Create a view with a component that looks like the attached composite image usin
 * Different fixed font-sizes have been assumed for different screen sizes. 
 
 ---
+
+## Coding Style Guide
+For this project I used: [Airbnb React/JSX Style Guide](https://github.com/airbnb/javascript/tree/master/react)
+
+---
+
 ## To run:
 
 * To start the app for development: `npm start`

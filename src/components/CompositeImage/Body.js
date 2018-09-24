@@ -10,4 +10,8 @@ function Body({src}) {
   return <StyledImage src={src} />;
 }
 
+Body.propTypes = {
+  src: PropTypes.string.isRequired,
+};
+
 export default Body;

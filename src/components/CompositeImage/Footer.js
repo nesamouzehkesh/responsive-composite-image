@@ -53,4 +53,10 @@ function Footer({logo, title, opacity}) {
   );
 }
 
+Footer.propTypes = {
+  logo: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  opacity: PropTypes.string,
+};
+
 export default Footer;
