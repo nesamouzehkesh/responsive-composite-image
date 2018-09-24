@@ -1,6 +1,6 @@
 # Composite Image
-[CompositeImage Demo](https://nesamouzehkesh.github.io/)
-[CompositeImage Documentation](https://nesamouzehkesh.github.io/styleguide)
+* [CompositeImage Demo](https://nesamouzehkesh.github.io/)
+* [CompositeImage Documentation](https://nesamouzehkesh.github.io/styleguide)
 
 ## The challenge:
 Create a view with a component that looks like the attached composite image using your preferred elements and the assets from this ZIP.
