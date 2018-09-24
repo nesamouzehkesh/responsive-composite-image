@@ -18,7 +18,43 @@ exports[`Test CompositeImage Footer component renders Footer component normally 
 </div>
 `;
 
+exports[`Test CompositeImage Footer component renders Footer component normally and checks against snapshot 1`] = `
+<div
+  className="sc-bdVaJa dfYFhE"
+  opacity={undefined}
+>
+  <img
+    className="sc-htpNat kbjeOc"
+    src="test.png"
+    title="Footer title"
+  />
+  <span
+    className="sc-bwzfXH cyQaiT"
+  >
+    Footer title
+  </span>
+</div>
+`;
+
 exports[`Test CompositeImage Footer component renders Footer component normally with opacity and check with snapshot 1`] = `
+<div
+  className="sc-bdVaJa hmsgUZ"
+  opacity="0.6"
+>
+  <img
+    className="sc-htpNat kbjeOc"
+    src="test.png"
+    title="Footer title"
+  />
+  <span
+    className="sc-bwzfXH cyQaiT"
+  >
+    Footer title
+  </span>
+</div>
+`;
+
+exports[`Test CompositeImage Footer component renders Footer component normally with opacity and checks against snapshot 1`] = `
 <div
   className="sc-bdVaJa hmsgUZ"
   opacity="0.6"

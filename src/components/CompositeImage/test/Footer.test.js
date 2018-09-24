@@ -3,7 +3,7 @@ import * as renderer from 'react-test-renderer';
 import Footer from '../Footer';
 
 describe ('Test CompositeImage Footer component', () => {
-  it ('renders Footer component normally and check with snapshot', () => {
+  it ('renders Footer component normally and checks against snapshot', () => {
     const element = renderer
       .create (<Footer logo="test.png" title="Footer title" />)
       .toJSON ();
@@ -11,7 +11,7 @@ describe ('Test CompositeImage Footer component', () => {
     expect (element).toMatchSnapshot ();
   });
 
-  it ('renders Footer component normally with opacity and check with snapshot', () => {
+  it ('renders Footer component normally with opacity and checks against snapshot', () => {
     const element = renderer
       .create (<Footer logo="test.png" title="Footer title" opacity="0.6" />)
       .toJSON ();

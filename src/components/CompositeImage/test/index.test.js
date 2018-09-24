@@ -10,7 +10,7 @@ const mockImage = {
 };
 
 describe ('Test CompositeImage component', () => {
-  it ('renders CompositeImage component normally and check with snapshot', () => {
+  it ('renders CompositeImage component normally and checks against snapshot', () => {
     const element = renderer
       .create (<CompositeImage image={mockImage} />)
       .toJSON ();
@@ -18,7 +18,7 @@ describe ('Test CompositeImage component', () => {
     expect (element).toMatchSnapshot ();
   });
 
-  it ('renders CompositeImage component normally with margin and check with snapshot', () => {
+  it ('renders CompositeImage component normally with margin and checks against snapshot', () => {
     const element = renderer
       .create (<CompositeImage image={mockImage} margin="10px" />)
       .toJSON ();
@@ -26,7 +26,7 @@ describe ('Test CompositeImage component', () => {
     expect (element).toMatchSnapshot ();
   });
 
-  it ('renders CompositeImage component normally with opacity and check with snapshot', () => {
+  it ('renders CompositeImage component normally with opacity and checks against snapshot', () => {
     const element = renderer
       .create (<CompositeImage image={mockImage} opacity="1" />)
       .toJSON ();

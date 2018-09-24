@@ -27,6 +27,33 @@ exports[`Test CompositeImage component renders CompositeImage component normally
 </div>
 `;
 
+exports[`Test CompositeImage component renders CompositeImage component normally and checks against snapshot 1`] = `
+<div
+  className="sc-ifAKCX cLaDgU"
+  width={Object {}}
+>
+  <img
+    className="sc-bdVaJa ehJlOl"
+    src="./media/tile.jpg"
+  />
+  <div
+    className="sc-bwzfXH iuahvm"
+    opacity="0.7"
+  >
+    <img
+      className="sc-bxivhb jvsqbT"
+      src="./media/logo.png"
+      title="Home and Away"
+    />
+    <span
+      className="sc-htpNat cThCYu"
+    >
+      Home and Away
+    </span>
+  </div>
+</div>
+`;
+
 exports[`Test CompositeImage component renders CompositeImage component normally with margin and check with snapshot 1`] = `
 <div
   className="sc-ifAKCX lhRcTC"
@@ -54,7 +81,61 @@ exports[`Test CompositeImage component renders CompositeImage component normally
 </div>
 `;
 
+exports[`Test CompositeImage component renders CompositeImage component normally with margin and checks against snapshot 1`] = `
+<div
+  className="sc-ifAKCX lhRcTC"
+  width={Object {}}
+>
+  <img
+    className="sc-bdVaJa ehJlOl"
+    src="./media/tile.jpg"
+  />
+  <div
+    className="sc-bwzfXH iuahvm"
+    opacity="0.7"
+  >
+    <img
+      className="sc-bxivhb jvsqbT"
+      src="./media/logo.png"
+      title="Home and Away"
+    />
+    <span
+      className="sc-htpNat cThCYu"
+    >
+      Home and Away
+    </span>
+  </div>
+</div>
+`;
+
 exports[`Test CompositeImage component renders CompositeImage component normally with opacity and check with snapshot 1`] = `
+<div
+  className="sc-ifAKCX cLaDgU"
+  width={Object {}}
+>
+  <img
+    className="sc-bdVaJa ehJlOl"
+    src="./media/tile.jpg"
+  />
+  <div
+    className="sc-bwzfXH dpcdFg"
+    opacity="1"
+  >
+    <img
+      className="sc-bxivhb jvsqbT"
+      src="./media/logo.png"
+      title="Home and Away"
+    />
+    <span
+      className="sc-htpNat cThCYu"
+    >
+      Home and Away
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Test CompositeImage component renders CompositeImage component normally with opacity and checks against snapshot 1`] = `
 <div
   className="sc-ifAKCX cLaDgU"
   width={Object {}}
