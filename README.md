@@ -30,12 +30,14 @@ Create a view with a component that looks like the attached composite image usin
 
 ### Maintainability: 
 	
-* Prop validation is an important factor in maintaining a component structure. It reassures valid types for the provided props. Different approaches can be used such as React's `PorpTypes` which has been used for this project. It is also a good component documentation source. Other methods could be: `Typescript` and `Flow`. 
+* Type checking is an important factor in maintaining a component structure. It reassures valid types for the provided props for example. Different approaches can be used such as React's `PorpTypes` which has been used for this project which could also be seen as a good component documentation source when a developer looks at it. Other available tools are: `Typescript` and `Flow`. 
 
 * Testing! Snapshot testing has been used for this project. 
 
 * `StyleGuide` has been added to this projects as documentation tool for other developers. It can demo different use cases of a component so would be benefitial for new members of the team to refer to if need be. 
 [CompositeImage Documentation](https://nesamouzehkesh.github.io/styleguide)
+
+* Proper sepration of concerns; the `CompositeImage` component for example has two smaller sub components, `Body` (for the body of `CompositeImage`) and `Footer` (for the footer of `CompositeImage`). Footer is defined as a componnet so later we can add more functionality to it if need be. 
 
 
 ### Assumptions: 
@@ -51,6 +53,17 @@ Create a view with a component that looks like the attached composite image usin
 	###### /* Desktops */
   `(min-width: 1281px)`
 
-
 * Different fixed font-sizes have been assumed for different screen sizes. 
 
+---
+## To run:
+
+* To start the app for development: `npm start`
+
+* To build the app: `npm run build`
+
+* To start the styleguidist server for generating docuementation: `npm run doc:start`
+
+* To build the docuementation: `npm run doc:build`
+
+* To test `npm run test`
