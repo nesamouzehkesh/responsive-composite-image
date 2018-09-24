@@ -84,7 +84,7 @@ const image = {
 
 <div>
   <CompositeImage image={image} margin="10px" />
-  <CompositeImage image={image} margin="10px" width={{large: "500px", medium: "400px", medium: "200px"}}/>
+  <CompositeImage image={image} margin="10px" width={{large: "500px", medium: "400px", small: "200px"}}/>
   <CompositeImage image={image} margin="10px" width={{large: "250px", medium: "250px"}}/>
 </div>
 ```
