@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 const StyledFooter = styled.div`
@@ -17,7 +18,7 @@ const StyledTitle = styled.span`
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
   color: #fff;
-  /* Tablets, Ipads (portrait) */
+  /* Tablets, iPads (portrait) */
   @media (min-width: 768px) and (max-width: 1024px) {
     font-size: 16px;
   }

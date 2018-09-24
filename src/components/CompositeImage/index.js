@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 import Body from './Body';
 import Footer from './Footer';
 
@@ -10,7 +11,7 @@ const StyledCompositeImage = styled.div`
   display: inline-block;
   margin: ${props => props.margin};
 
-  /* Tablets, Ipads (portrait) */
+  /* Tablets, iPads (portrait) */
   @media (min-width: 768px) and (max-width: 1024px) {
     width: ${props => props.width.medium || '450px'};
   }
